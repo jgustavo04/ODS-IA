@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saúde & Educação</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="floating-shapes">
+      <div class="shape" style="width: 60px; height: 60px; background: linear-gradient(45deg, #4CAF50, #45a049); border-radius: 50%;"></div>
+      <div class="shape" style="width: 40px; height: 40px; background: linear-gradient(45deg, #FF6B6B, #FF8E53); border-radius: 50%;"></div>
+      <div class="shape" style="width: 80px; height: 80px; background: linear-gradient(45deg, #81C784, #66BB6A); border-radius: 50%;"></div>
+    </div>
+
+    <header>
+      <h1>Saúde & Educação</h1>
+      <p>Conteúdos interativos sobre saúde, bem-estar e educação de qualidade</p>
+    </header>
+
+    <nav>
+      <button onclick="showSection('saude')" id="btn-saude">🏥 Saúde</button>
+      <button onclick="showSection('alimentacao')" id="btn-alimentacao">🥗 Alimentação</button>
+      <button onclick="showSection('higiene')" id="btn-higiene">🧼 Higiene</button>
+      <button onclick="showSection('mental')" id="btn-mental">🧠 Saúde Mental</button>
+      <button onclick="showSection('atividades')" id="btn-atividades">🏃 Atividades Físicas</button>
+      <button onclick="showSection('educacao')" id="btn-educacao">📚 Educação</button>
+      <button onclick="showSection('quiz')" id="btn-quiz">🎯 Quiz</button>
+      <button onclick="showSection('assistente')" id="btn-assistente">🤖 Assistente IA</button>
+      <button onclick="showSection('agenda')" id="btn-agenda">📅 Agenda</button>
+      <button onclick="showSection('feedback')" id="btn-feedback">💬 Feedback</button>
+    </nav>
+
+    <div class="container">
+      <section id="saude" class="content-section active">
+        <div class="card">
+          <h2><span class="icon">🏥</span> Cuidados com a Saúde</h2>
+          <div class="importance-section">
+            <h3>Por que é importante?</h3>
+            <p>A saúde é nosso bem mais precioso. Cuidar da saúde preventivamente evita doenças, melhora a qualidade de vida e nos permite viver com mais energia e disposição. A prevenção é sempre mais eficaz e econômica do que o tratamento.</p>
+          </div>
+          
+          <div class="tips-grid">
+            <div class="tip-card">
+              <h4>🩺 Consultas Regulares</h4>
+              <p>Faça check-ups médicos anuais, mesmo sem sintomas. A detecção precoce salva vidas.</p>
+            </div>
+            <div class="tip-card">
+              <h4>💉 Vacinação</h4>
+              <p>Mantenha a carteira de vacinação em dia. As vacinas protegem você e sua comunidade.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🏥 Primeiros Socorros</h4>
+              <p>Aprenda técnicas básicas de primeiros socorros. Conhecimento que pode salvar vidas.</p>
+            </div>
+            <div class="tip-card">
+              <h4>📋 Exames Preventivos</h4>
+              <p>Realize exames de rotina como colesterol, glicemia e pressão arterial regularmente.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="alimentacao" class="content-section">
+        <div class="card">
+          <h2><span class="icon">🥗</span> Alimentação Saudável</h2>
+          <div class="importance-section">
+            <h3>Por que é importante?</h3>
+            <p>Uma alimentação equilibrada fornece todos os nutrientes necessários para o bom funcionamento do organismo, fortalece o sistema imunológico, previne doenças crônicas como diabetes e hipertensão, e contribui para o bem-estar mental e físico.</p>
+          </div>
+          
+          <div class="tips-grid">
+            <div class="tip-card">
+              <h4>🍎 Frutas e Vegetais</h4>
+              <p>Consuma pelo menos 5 porções de frutas e vegetais por dia. São ricos em vitaminas e antioxidantes.</p>
+            </div>
+            <div class="tip-card">
+              <h4>💧 Hidratação</h4>
+              <p>Beba pelo menos 2 litros de água por dia. A hidratação adequada é essencial para todas as funções corporais.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🌾 Grãos Integrais</h4>
+              <p>Prefira alimentos integrais. Eles fornecem fibras e energia de forma mais equilibrada.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🧂 Reduza o Açúcar</h4>
+              <p>Limite o consumo de açúcar refinado e alimentos processados para prevenir doenças.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="higiene" class="content-section">
+        <div class="card">
+          <h2><span class="icon">🧼</span> Higiene Pessoal e Ambiental</h2>
+          <div class="importance-section">
+            <h3>Por que é importante?</h3>
+            <p>A higiene é a primeira linha de defesa contra infecções e doenças. Práticas adequadas de higiene pessoal e ambiental previnem a transmissão de vírus, bactérias e parasitas, promovendo saúde individual e coletiva.</p>
+          </div>
+          
+          <div class="tips-grid">
+            <div class="tip-card">
+              <h4>🤲 Lavagem das Mãos</h4>
+              <p>Lave as mãos frequentemente com água e sabão por pelo menos 20 segundos, especialmente antes das refeições.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🦷 Higiene Bucal</h4>
+              <p>Escove os dentes 3 vezes ao dia e use fio dental. A saúde bucal afeta todo o organismo.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🏠 Ambiente Limpo</h4>
+              <p>Mantenha sua casa limpa e arejada. Um ambiente limpo reduz a proliferação de microrganismos.</p>
+            </div>
+            <div class="tip-card">
+              <h4>👕 Roupas Limpas</h4>
+              <p>Use roupas limpas e tome banho diariamente. A higiene pessoal contribui para a autoestima.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="mental" class="content-section">
+        <div class="card">
+          <h2><span class="icon">🧠</span> Saúde Mental</h2>
+          <div class="importance-section">
+            <h3>Por que é importante?</h3>
+            <p>A saúde mental é tão importante quanto a física. Ela afeta como pensamos, sentimos e agimos. Cuidar da mente melhora a qualidade de vida, relacionamentos, produtividade e ajuda a lidar melhor com desafios e estresse do dia a dia.</p>
+          </div>
+          
+          <div class="tips-grid">
+            <div class="tip-card">
+              <h4>😌 Gerenciamento do Estresse</h4>
+              <p>Pratique técnicas de relaxamento como meditação e respiração profunda para reduzir o estresse.</p>
+            </div>
+            <div class="tip-card">
+              <h4>💤 Sono de Qualidade</h4>
+              <p>Durma de 7-9 horas por noite. O sono adequado é fundamental para a saúde mental e física.</p>
+            </div>
+            <div class="tip-card">
+              <h4>👥 Conexões Sociais</h4>
+              <p>Mantenha relacionamentos saudáveis. O apoio social é crucial para o bem-estar emocional.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🆘 Busque Ajuda</h4>
+              <p>Não hesite em procurar ajuda profissional quando necessário. Cuidar da mente é um ato de coragem.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="atividades" class="content-section">
+        <div class="card">
+          <h2><span class="icon">🏃</span> Atividades Físicas</h2>
+          <div class="importance-section">
+            <h3>Por que é importante?</h3>
+            <p>A atividade física regular fortalece músculos e ossos, melhora a capacidade cardiovascular, controla o peso, reduz o risco de doenças crônicas e libera endorfinas que promovem bem-estar e reduzem o estresse e ansiedade.</p>
+          </div>
+          
+          <div class="tips-grid">
+            <div class="tip-card">
+              <h4>🚶 Exercícios Regulares</h4>
+              <p>Pratique pelo menos 150 minutos de atividade moderada por semana, como caminhadas rápidas.</p>
+            </div>
+            <div class="tip-card">
+              <h4>💪 Fortalecimento</h4>
+              <p>Inclua exercícios de fortalecimento muscular pelo menos 2 vezes por semana.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🤸 Flexibilidade</h4>
+              <p>Pratique alongamentos e yoga para manter a flexibilidade e reduzir tensões musculares.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🎯 Comece Gradualmente</h4>
+              <p>Inicie devagar e aumente a intensidade progressivamente. Consistência é mais importante que intensidade.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="educacao" class="content-section">
+        <div class="card">
+          <h2><span class="icon">📚</span> Educação de Qualidade</h2>
+          <div class="importance-section">
+            <h3>Por que a Educação Transforma?</h3>
+            <p>A educação é a base para o desenvolvimento pessoal e social. Ela nos capacita a pensar criticamente, a tomar decisões informadas e a buscar um futuro melhor. Investir em educação é investir em saúde, bem-estar e na construção de uma sociedade mais justa e próspera.</p>
+          </div>
+          
+          <div class="tips-grid">
+            <div class="tip-card">
+              <h4>💡 Conhecimento Contínuo</h4>
+              <p>Nunca pare de aprender. A leitura, a pesquisa e a busca por novas habilidades mantêm sua mente ativa e curiosa.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🤝 Habilidades Sociais</h4>
+              <p>A educação nos ensina a interagir, colaborar e respeitar as diferenças, essenciais para a convivência em sociedade.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🌍 Cidadania Ativa</h4>
+              <p>Uma boa educação nos prepara para ser cidadãos conscientes, participando e contribuindo para a comunidade.</p>
+            </div>
+            <div class="tip-card">
+              <h4>🚀 Oportunidades</h4>
+              <p>A educação abre portas para melhores oportunidades de trabalho e para a realização de sonhos pessoais.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quiz" class="content-section">
+        <div class="card">
+          <div class="quiz-section">
+            <h2 style="color: #f5f7fa;"><span class="icon">🎯</span> Quiz de Saúde</h2>
+            <p style="font-size: 1.2rem; margin: 20px 0;">Teste seus conhecimentos sobre saúde!</p>
+            
+            <div id="quiz-content">
+              <p><strong>Pergunta:</strong> Quantos litros de água devemos beber por dia?</p>
+              <div class="quiz-buttons">
+                <button class="quiz-btn" onclick="responder('errado', '1 litro')">1 litro</button>
+                <button class="quiz-btn" onclick="responder('certo', '2 litros')">2 litros</button>
+                <button class="quiz-btn" onclick="responder('errado', '4 litros')">4 litros</button>
+              </div>
+            </div>
+            <div id="resposta"></div>
+            
+            <button onclick="proximaPergunta()" id="proxima-btn" style="display: none; margin-top: 20px; background: rgba(255,255,255,0.3); border: none; color: white; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Próxima Pergunta</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="assistente" class="content-section">
+        <div class="card">
+          <h2><span class="icon">🤖</span> Assistente Virtual de Saúde</h2>
+          
+          <div class="importance-section">
+            <h3>Converse com nosso assistente inteligente</h3>
+            <p>Faça perguntas sobre saúde, nutrição, exercícios, higiene, saúde mental e bem-estar. Nossa IA vai ajudar com informações personalizadas baseadas em conhecimento médico.</p>
+          </div>
+          
+          <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+              <div class="message bot-message">
+                <strong>Assistente de Saúde:</strong> Olá! Sou seu assistente inteligente de saúde. Como posso ajudar você hoje? Pode me perguntar sobre alimentação, exercícios, cuidados com a saúde, higiene, saúde mental ou qualquer outro tema relacionado ao bem-estar!
+              </div>
+            </div>
+            
+            <div class="chat-input-container">
+              <input type="text" id="user-input" class="chat-input" 
+                     placeholder="Digite sua pergunta sobre saúde...">
+              <button onclick="enviarPergunta()" class="chat-send-btn">
+                Enviar
+              </button>
+            </div>
+
+            <button onclick="limparChat()" class="chat-clear-btn" 
+                    style="background: linear-gradient(45deg, #FF6B6B, #FF8E53); color: white; border: none; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 0.9rem; margin-top: 10px; width: 100%;">
+              🧹 Limpar Conversa
+            </button>
+            
+            <div class="chat-examples">
+              <small>💡 Exemplos: "Quantas horas devo dormir?", "Como ter uma alimentação saudável?", "Dicas para reduzir estresse"</small>
+            </div>
+          </div>
+
+          <div class="tips-grid" style="margin-top: 30px;">
+            <div class="tip-card" onclick="perguntaExemplo('alimentacao')" style="cursor: pointer;">
+              <h4>🍎 Alimentação</h4>
+              <p>Pergunte sobre dietas, nutrição e hábitos alimentares saudáveis</p>
+            </div>
+            <div class="tip-card" onclick="perguntaExemplo('exercicios')" style="cursor: pointer;">
+              <h4>💪 Exercícios</h4>
+              <p>Tire dúvidas sobre atividades físicas e treinos</p>
+            </div>
+            <div class="tip-card" onclick="perguntaExemplo('higiene')" style="cursor: pointer;">
+              <h4>🧼 Higiene</h4>
+              <p>Saiba mais sobre cuidados pessoais e limpeza</p>
+            </div>
+            <div class="tip-card" onclick="perguntaExemplo('mental')" style="cursor: pointer;">
+              <h4>🧠 Saúde Mental</h4>
+              <p>Informe-se sobre bem-estar emocional e mental</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="agenda" class="content-section">
+        <div class="card">
+          <h2><span class="icon">📅</span> Agenda Comunitária</h2>
+          <p>Participe das atividades de saúde e educação em sua comunidade:</p>
+          
+          <div class="agenda-item">
+            <div class="agenda-date">15 de Setembro - 14h00</div>
+            <h4>🍎 Palestra: Nutrição e Alimentação Saudável</h4>
+            <p>Aprenda sobre alimentação balanceada com nutricionista especializada. Local: Centro Comunitário</p>
+          </div>
+
+          <div class="agenda-item">
+            <div class="agenda-date">20 de Setembro - 10h00</div>
+            <h4>🧼 Oficina: Práticas de Higiene</h4>
+            <p>Workshop prático sobre higiene pessoal e doméstica. Ideal para famílias. Local: Escola Municipal</p>
+          </div>
+
+          <div class="agenda-item">
+            <div class="agenda-date">25 de Setembro - 16h00</div>
+            <h4>🧠 Grupo de Apoio: Saúde Mental</h4>
+            <p>Encontro de apoio psicológico e técnicas de bem-estar emocional. Local: UBS Central</p>
+          </div>
+
+          <div class="agenda-item">
+            <div class="agenda-date">30 de Setembro - 08h00</div>
+            <h4>🏃 Caminhada Comunitária</h4>
+            <p>Atividade física em grupo no parque. Todas as idades são bem-vindas! Local: Parque Municipal</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="feedback" class="content-section">
+        <div class="card">
+          <h2><span class="icon">💬</span> Sua Opinião Importa!</h2>
+          <div class="importance-section">
+            <h3>Ajude-nos a Melhorar</h3>
+            <p>Seu feedback é fundamental para continuarmos aprimorando o site e os conteúdos. Conte-nos como o site te ajudou ou o que podemos fazer para melhorá-lo.</p>
+          </div>
+          
+          <form id="feedbackForm">
+            <div style="margin-bottom: 15px;">
+              <label for="nome" style="display: block; font-weight: bold; margin-bottom: 5px;">Nome (Opcional):</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px;">Email (Opcional):</label>
+              <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label for="mensagem" style="display: block; font-weight: bold; margin-bottom: 5px;">Sua Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" rows="6" placeholder="Compartilhe como o site te ajudou e/ou o que podemos melhorar." style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; resize: vertical;" required></textarea>
+            </div>
+            <button type="submit" style="background: linear-gradient(45deg, #4CAF50, #45a049); color: white; border: none; padding: 12px 24px; border-radius: 25px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Enviar Feedback</button>
+          </form>
+          <div id="feedbackMessage" style="margin-top: 20px; font-weight: bold;"></div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Saúde & Educação – Transformando vidas através do conhecimento</p>
+    </footer>
+  </div>
+
+  <script src="../html/main.js"></script>
+</body>
+</html>
